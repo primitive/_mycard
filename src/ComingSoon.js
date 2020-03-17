@@ -101,7 +101,7 @@ const StyledIntroCard = styled.div`
 
   .card{
     position:relative;
-    margin: 100px auto 50px;
+    margin: 50px auto 50px;
     width: 350px;
     height: 490px;
     background-color: ${settings.color.light};
@@ -174,9 +174,11 @@ const StyledIntroCard = styled.div`
 const TextTop = styled.div`
 
   position: absolute;
+  padding: 0;
   font-size: 40px;
   font-weight: bold;
   color: ${settings.color.primary};
+  background-color: transparent;
   top: 18px;
   left: 15px;
   opacity: 0;
@@ -204,11 +206,13 @@ const TextTop = styled.div`
 const TextBottom = styled.div`
 
   position: absolute;
+  padding: 0;
   bottom: 18px;
   right: 15px;
   font-size: 30px;
   font-weight: bold;
   color: ${settings.color.primary};
+  background-color: transparent;
 
   opacity: 0;
   animation: ${fadeInMark} .8s .5s forwards;

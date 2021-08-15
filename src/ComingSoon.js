@@ -94,7 +94,6 @@ const fadeInMark = keyframes`
 
 const StyledIntroCard = styled.div`
   postition: relative;
-  overflow: hidden;
   box-sizing(border-box);
 
   sup { font-size: 50%; }

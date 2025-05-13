@@ -1,24 +1,30 @@
 {
-  "name": "@primitve/mycard",
-  "version": "0.1.1",
+  "name": "mycard",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
   "homepage": "./",
   "dependencies": {
-    "@emotion/core": "^10.0.28",
-    "@emotion/styled": "^10.0.27",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^1.1.2"
+    "react-snap": "^1.23.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
+  },
+  "reactSnap": {
+    "inlineCss": true
   },
   "eslintConfig": {
     "extends": [
@@ -26,7 +32,7 @@
       "react-app/jest"
     ]
   },
-    "browserslist": {
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
@@ -37,8 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    },
-    "devDependencies": {
-      "eslint": "^6.8.0"
-    }
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.23.3",
+    "eslint": "^8.57.0"
   }
+}

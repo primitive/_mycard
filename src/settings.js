@@ -1,11 +1,14 @@
 // config
 const settings = {
     texttop: "New Site",
-    textbottom: "Coming Soon",
+    textbottom: "Contact",
+    linkBottom: "http://primitiveweb.dev/contact",
     icontop: "",
     iconbottom: "",
-    company1: "Eclectic",
-    company2: "Collective",
+    company1: "Primitive",
+    company2: "Web Design",
+    webUrl: "http://primitiveweb.dev",
+    linkTitle: "Primitive Web Design & Development",
 
     color: {
         white: "#ffffff",

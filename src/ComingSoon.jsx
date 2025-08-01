@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 import settings from './settings.js';
 
-import primitivetext from './primitive.svg';
+import primitivetext from './primitive-text.svg';
 import primitiveicon from './punkyicon.svg';
 
 function IntroCard() {
@@ -71,7 +71,7 @@ const fadeInDark = keyframes`
   }
 `;
 
-const fadeInRed = keyframes`
+const fadeInPrimary = keyframes`
   from {
     opacity: 0;
     transform: rotate(70deg) translate(7px, 800px);
@@ -95,7 +95,7 @@ const fadeInText = keyframes`
   }
 `;
 
-const fadeInMark = keyframes`
+const fadeInTop = keyframes`
   from { opacity: 0; }
   to { opacity: 1; }
 `;
@@ -136,7 +136,7 @@ const StyledIntroCard = styled.div`
     right: -50px;
     background: ${settings.color.dark};
     opacity: 0;
-    border-left: solid 250px #664c4f;
+    border-left: solid 250px ${settings.color.primarymute};
     animation: ${fadeInDark} 0.8s 1s forwards;
   }
 
@@ -149,7 +149,7 @@ const StyledIntroCard = styled.div`
     right: 50px;
     background: ${settings.color.primarymute};
     opacity: 0;
-    animation: ${fadeInRed} 0.8s 1.5s forwards;
+    animation: ${fadeInPrimary} 0.8s 1.5s forwards;
   }
 
   .content {
@@ -182,12 +182,12 @@ const TextTop = styled.div`
   padding: 0;
   font-size: 40px;
   font-weight: bold;
-  color: ${settings.color.primary};
+  color: ${settings.color.dark};
   background-color: transparent;
   top: 18px;
   left: 15px;
   opacity: 0;
-  animation: ${fadeInMark} 0.8s 0.5s forwards;
+  animation: ${fadeInTop} 0.8s 0.5s forwards;
   animation-delay: 1500ms;
 `;
 
@@ -201,7 +201,7 @@ const TextBottom = styled.div`
   color: ${settings.color.primary};
   background-color: transparent;
   opacity: 0;
-  animation: ${fadeInMark} 0.8s 0.5s forwards;
+  animation: ${fadeInTop} 0.8s 0.5s forwards;
   animation-delay: 1500ms;
 `;
 
@@ -221,9 +221,10 @@ const Company2 = styled.h2`
 `;
 
 const Brand = styled.div`
-  margin: -20px auto 0;
-  height: 50px;
-  width: 200px;
+  margin: 20px auto 0;
+  height: auto;
+  width: 160px;
   padding: 0 10px 20px;
+  color: ${settings.color.primarymute};
   opacity: 0.5;
 `;

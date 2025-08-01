@@ -1,6 +1,7 @@
 {
-  "short_name": "Primitive Digital",
-  "name": "Primitive Digital Icons",
+  "short_name": "MyCard",
+  "name": "Primitive Web Card",
+  "description": "A digital business card by Primitive.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#133836",
+  "background_color": "#F2EFDE",
+  "orientation": "portrait"
 }

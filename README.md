@@ -1,64 +1,92 @@
-# Simple Digital Business Card
+# MyCard: Digital Business Card or Placeholder
 
-This will output a static html file to display a business card.
+![version](https://img.shields.io/badge/version-2.0.2-blue)
+![vite](https://img.shields.io/badge/tooling-Vite-646cff)
+![react](https://img.shields.io/badge/framework-React-61dafb)
 
+A minimal single-page React app for displaying a digital business card.
 
-## Available Scripts
+This project uses [Vite](https://vitejs.dev/) for lightning-fast development and build. The output is a single static `index.html` with bundled CSS/JS — ready to deploy anywhere.
+
+---
+
+## 🚀 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
-Dev server, fast refresh, CSR only
+Starts the Vite dev server with hot module reloading.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm run dev
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
 ### `npm run build`
 
-CRA builds React app, then react-snap crawls and pre-renders to static HTML
+Builds the app for production to the `dist/` folder:
 
+```bash
+npm run build
+```
 
+This generates a static HTML file (`dist/index.html`) with fully optimised assets.
 
+---
 
+### `npm run preview`
 
+Locally preview the production build:
 
+```bash
+npm run preview
+```
 
+---
 
-## Learn More
+## 📁 Output
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After building, you'll get:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `dist/index.html` — your static page
+- `dist/assets/` — CSS/JS files for your card
+- No runtime dependencies or backend needed
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧾 Project Structure
 
-### Analyzing the Bundle Size
+```bash
+src/
+├── main.jsx         # Entry point
+├── ComingSoon.js    # Main UI
+├── index.css        # Styles
+index.html           # Static template
+vite.config.js       # Build config
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🌍 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Just upload the `dist/` folder to any static host.
 
-### Advanced Configuration
+No server-side code required.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🧹 Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Emotion handles component styling
+- Linting is configured with ESLint
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧠 Learn More
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)

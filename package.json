@@ -16,9 +16,6 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "reactSnap": {
-    "inlineCss": true
-  },
   "browserslist": {
     "production": [
       ">0.2%",

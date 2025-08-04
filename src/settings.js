@@ -1,5 +1,7 @@
 // config
 const settings = {
+    title: 'New Website from Primitive Web Design',
+    description: 'Primitive Web Design and Development',
     texttop: "New Site",
     textbottom: "Contact",
     linkBottom: "http://primitiveweb.dev/contact",
@@ -11,17 +13,17 @@ const settings = {
     linkTitle: "Primitive Web Design & Development",
 
     color: {
+        bg: "",
         white: "#ffffff",
         light: "#CCC5B3",
-        dark: "#0C0B13",
-        primary: "#E1623F",
-        primarymute: "rgba(225,98,63,.7)"
+        dark: "#332D2D",
+        primary: "#f2d556",
+        primarymute: "rgba(242, 213, 86,.7)"
     }
 }
 
 
 // apple red - #E1623F" - rgba(225,98,63,.7)
-
 // mustard -  #ffdb58 / rgb(255,219,88,.7)
 // lime - #00FF00
 // teal - #008080 / rgba(0,128,128,.7)

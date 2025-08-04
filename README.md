@@ -1,64 +1,105 @@
-# Simple Digital Business Card
+# MyCard: Primitive Business Card
 
-This will output a static html file to display a business card.
+![version](https://img.shields.io/badge/version-2.0.2-blue)
+![vite](https://img.shields.io/badge/tooling-Vite-646cff)
+![react](https://img.shields.io/badge/framework-React-61dafb)
 
+Outputs a simple single-page React app for displaying a digital card.
 
-## Available Scripts
+This project uses [Vite](https://vitejs.dev/) for lightning-fast development and build. The output is a single static `index.html` with bundled CSS/JS — ready to deploy anywhere.
+
+---
+
+## 🚀 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
-Dev server, fast refresh, CSR only
+Starts the Vite dev server with hot module reloading.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm run dev
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
 ### `npm run build`
 
-CRA builds React app, then react-snap crawls and pre-renders to static HTML
+Builds the app for production to the `dist/` folder:
 
+```bash
+npm run build
+```
 
+This generates a static HTML file (`dist/index.html`) with fully optimised assets.
 
+---
 
+### `npm run preview`
 
+Locally preview the production build:
 
+```bash
+npm run preview
+```
 
+---
 
-## Learn More
+## 🧾 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+src/
+├── main.jsx         # Entry point
+├── IntroCard.jsx    # Main UI
+├── index.css        # Styles
+├── settings.jsx     # Config
+index.html           # Static template
+vite.config.js       # Build config
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧾 Config
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+src/
+├── settings.jsx     # Config - set meta, colours, text strings
+├── index.css        # Styles - global
+├── IntroCard.jsx    # Styles - component level
+index.html           # External fonts or scripts
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📁 Output
 
-### Making a Progressive Web App
+After building, you'll get:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `dist/index.html` — your static page
+- `dist/assets/` — CSS/JS files for your card
+- No runtime dependencies or backend needed
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🌍 Deployment
 
-### Deployment
+Just upload the contents of `dist/` folder to any static host.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+No server-side code required.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧹 Notes
+
+- Emotion handles component styling
+- Linting is configured with ESLint
+
+---
+
+## 🧠 Learn More
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)

@@ -1,6 +1,6 @@
 {
   "name": "mycard",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
   "type": "module",
   "homepage": "./",
@@ -32,6 +32,8 @@
     "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^9.32.0",
     "eslint-plugin-react": "^7.37.5",
-    "vite": "^7.0.6"
+    "vite": "^7.0.6",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-pwa": "^1.0.2"
   }
 }

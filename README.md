@@ -103,3 +103,11 @@ No server-side code required.
 
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://react.dev/)
+
+## 🧹 To Do
+
+- review manifest creation and values
+- add bg config
+- replace icons
+
+---

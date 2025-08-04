@@ -62,7 +62,7 @@ vite.config.js       # Build config
 
 ---
 
-## 🧾 Config
+## 🧾 Config and Development
 
 ```bash
 src/
@@ -71,6 +71,10 @@ src/
 ├── IntroCard.jsx    # Styles - component level
 index.html           # External fonts or scripts
 ```
+
+If you don't see config changeds on build, you may be seeing a cached version of the index file. Do a hard reload:
+- Windows: Ctrl + Shift + R
+- Mac: Cmd + Shift + R
 
 ---
 

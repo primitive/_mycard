@@ -1,10 +1,10 @@
-# MyCard: Digital Business Card or Placeholder
+# MyCard: Primitive Business Card
 
 ![version](https://img.shields.io/badge/version-2.0.2-blue)
 ![vite](https://img.shields.io/badge/tooling-Vite-646cff)
 ![react](https://img.shields.io/badge/framework-React-61dafb)
 
-A minimal single-page React app for displaying a digital business card.
+Outputs a simple single-page React app for displaying a digital card.
 
 This project uses [Vite](https://vitejs.dev/) for lightning-fast development and build. The output is a single static `index.html` with bundled CSS/JS — ready to deploy anywhere.
 
@@ -48,6 +48,31 @@ npm run preview
 
 ---
 
+
+## 🧾 Project Structure
+
+```bash
+src/
+├── main.jsx         # Entry point
+├── ComingSoon.js    # Main UI
+├── index.css        # Styles
+├── settings.js      # Config
+index.html           # Static template
+vite.config.js       # Build config
+```
+
+## 🧾 Config
+
+```bash
+src/
+├── main.jsx         # Entry point
+├── ComingSoon.js    # Main UI
+├── index.css        # Styles
+├── settings.js      # Config
+index.html           # Static template
+vite.config.js       # Build config
+```
+
 ## 📁 Output
 
 After building, you'll get:
@@ -58,22 +83,13 @@ After building, you'll get:
 
 ---
 
-## 🧾 Project Structure
 
-```bash
-src/
-├── main.jsx         # Entry point
-├── ComingSoon.js    # Main UI
-├── index.css        # Styles
-index.html           # Static template
-vite.config.js       # Build config
-```
 
 ---
 
 ## 🌍 Deployment
 
-Just upload the `dist/` folder to any static host.
+Just upload the contents of `dist/` folder to any static host.
 
 No server-side code required.
 

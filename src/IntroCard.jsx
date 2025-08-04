@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 
 import settings from './settings.js';
 
-import primitivetext from './primitive-text.svg';
 import primitiveicon from './punkyicon.svg';
+import primitivetext from './primitive-text.svg';
 
 function IntroCard() {
   return (

@@ -1,7 +1,7 @@
 // config
 const settings = {
     title: 'New Website from Primitive Web Design',
-    description: 'Primitive Web Design and Development',
+    description: 'A digital business card by Primitive',
     texttop: "New Site",
     textbottom: "Contact",
     linkBottom: "http://primitiveweb.dev/contact",
@@ -13,7 +13,8 @@ const settings = {
     linkTitle: "Primitive Web Design & Development",
 
     color: {
-        bg: "",
+        bg: "#F2EFDE",
+        theme_ui: "#133836",
         white: "#ffffff",
         light: "#CCC5B3",
         dark: "#332D2D",

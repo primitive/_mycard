@@ -12,7 +12,8 @@ export default defineConfig({
       inject: {
         data: {
           title: siteSettings.title,
-          description: siteSettings.description
+          description: siteSettings.description,
+          theme_color: siteSettings.theme_ui,
         }
       }
     }),
@@ -20,13 +21,13 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'My Card',
+        name: 'Primitive Web Card',
         short_name: 'MyCard',
-        description: 'A simple digital business card',
+        description: siteSettings.description,
         start_url: '.',
         display: 'standalone',
-        background_color: '#F2EFDE',
-        theme_color: '#133836',
+        background_color: siteSettings.bg,
+        theme_color: siteSettings.theme_ui,
         icons: [
           {
             src: 'icon-192.png',

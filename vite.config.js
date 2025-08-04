@@ -13,7 +13,7 @@ export default defineConfig({
         data: {
           title: siteSettings.title,
           description: siteSettings.description,
-          theme_color: siteSettings.theme_ui,
+          theme_color: siteSettings.color.theme_ui
         }
       }
     }),
@@ -26,8 +26,8 @@ export default defineConfig({
         description: siteSettings.description,
         start_url: '.',
         display: 'standalone',
-        background_color: siteSettings.bg,
-        theme_color: siteSettings.theme_ui,
+        background_color: siteSettings.color.bg,
+        theme_color: siteSettings.color.theme_ui,
         icons: [
           {
             src: 'icon-192.png',

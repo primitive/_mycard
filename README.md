@@ -110,8 +110,8 @@ No server-side code required.
 
 ## 🧹 To Do
 
-- review manifest creation and values
-- add bg config
+- extend bg config for image
 - replace icons
+- render to static
 
 ---

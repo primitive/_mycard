@@ -1,11 +1,21 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { createHtmlPlugin } from 'vite-plugin-html';
+import siteSettings from './src/settings.js'; // ✅ import your config
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
   base: './',
   plugins: [
     react(),
+    createHtmlPlugin({
+      inject: {
+        data: {
+          title: siteSettings.title,
+          description: siteSettings.description
+        }
+      }
+    }),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],

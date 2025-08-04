@@ -48,30 +48,31 @@ npm run preview
 
 ---
 
-
 ## 🧾 Project Structure
 
 ```bash
 src/
 ├── main.jsx         # Entry point
-├── ComingSoon.js    # Main UI
+├── IntroCard.jsx    # Main UI
 ├── index.css        # Styles
-├── settings.js      # Config
+├── settings.jsx     # Config
 index.html           # Static template
 vite.config.js       # Build config
 ```
+
+---
 
 ## 🧾 Config
 
 ```bash
 src/
-├── main.jsx         # Entry point
-├── ComingSoon.js    # Main UI
-├── index.css        # Styles
-├── settings.js      # Config
-index.html           # Static template
-vite.config.js       # Build config
+├── settings.jsx     # Config - set meta, colours, text strings
+├── index.css        # Styles - global
+├── IntroCard.jsx    # Styles - component level
+index.html           # External fonts or scripts
 ```
+
+---
 
 ## 📁 Output
 
@@ -80,10 +81,6 @@ After building, you'll get:
 - `dist/index.html` — your static page
 - `dist/assets/` — CSS/JS files for your card
 - No runtime dependencies or backend needed
-
----
-
-
 
 ---
 

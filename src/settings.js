@@ -1,7 +1,7 @@
 // config
 const settings = {
-    title: "",
-    desc: "",
+    title: 'New Website from Primitive Web Design',
+    description: 'Primitive Web Design and Development',
     texttop: "New Site",
     textbottom: "Contact",
     linkBottom: "http://primitiveweb.dev/contact",

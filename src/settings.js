@@ -4,13 +4,13 @@ const settings = {
     description: 'A digital business card by Primitive',
     texttop: "New Site",
     textbottom: "Contact",
-    linkBottom: "http://primitiveweb.dev/contact",
+    linkBottom: "http://primitiveweb.design/contact",
     icontop: "",
     iconbottom: "",
     company1: "Primitive",
     company2: "Web Design",
-    webUrl: "http://primitiveweb.dev",
-    linkTitle: "Primitive Web Design & Development",
+    webUrl: "http://primitiveweb.design",
+    linkTitle: "Primitive Web Design",
 
     color: {
         bg: "#F2EFDE",

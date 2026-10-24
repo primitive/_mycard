@@ -1,16 +1,16 @@
 // config
 const settings = {
     title: 'New Website from Primitive Web Design',
-    description: 'Primitive Web Design and Development',
+    description: 'Primitive Web Design',
     texttop: "New Site",
     textbottom: "Contact",
-    linkBottom: "http://primitiveweb.dev/contact",
+    linkBottom: "http://primitiveweb.design/contact",
     icontop: "",
     iconbottom: "",
     company1: "Primitive",
     company2: "Web Design",
-    webUrl: "http://primitiveweb.dev",
-    linkTitle: "Primitive Web Design & Development",
+    webUrl: "http://primitiveweb.design",
+    linkTitle: "Primitive Web Design",
 
     color: {
         bg: "",
